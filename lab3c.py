@@ -3,6 +3,7 @@
 # Author ID: pmistry21@myseneca.ca
 
 def operate(number1, number2, operator):
+# Place logic in this function.
     if operator == 'add':
         return number1 + number2
     elif operator == 'subtract':
@@ -12,6 +13,7 @@ def operate(number1, number2, operator):
     else:
         return 'Error: function operator can be "add", "subtract", or "multiply"'
 
+# Main program.
 if __name__ == '__main__':
     print(operate(10, 5, 'add'))
     print(operate(10, 5, 'subtract'))

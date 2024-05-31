@@ -9,7 +9,6 @@ def return_text_value():
     return greeting
 
 # return_number_value() function
-
 def return_number_value():
     num1 = 10
     num2 = 5
@@ -17,7 +16,6 @@ def return_number_value():
     return num3
 
 # Main Program
-
 if __name__ == '__main__':
     print('python code')
     text = return_text_value()
